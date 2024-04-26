@@ -6,3 +6,11 @@ sky:
     database: sky_take_out
     username: root
     password: 123456
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tJ3HhaLHmPJmXg1vPDm
+    access-key-secret: 99AS9VH4E9ajBEhHcFKARdg3BzetNS
+    bucket-name: xia-sky-take-out
+
+#application-dev.yml 可以理解为是 application.yml 的一个补充，
+#用于在开发环境下提供特定的配置信息，以满足开发需求。
