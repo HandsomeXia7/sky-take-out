@@ -10,7 +10,8 @@ import java.util.List;
 @Data
 public class DishDTO implements Serializable {
 
-    private Long id;
+    private Long id;  private String image;
+    //描述信息
     //菜品名称
     private String name;
     //菜品分类id
@@ -18,8 +19,7 @@ public class DishDTO implements Serializable {
     //菜品价格
     private BigDecimal price;
     //图片
-    private String image;
-    //描述信息
+
     private String description;
     //0 停售 1 起售
     private Integer status;

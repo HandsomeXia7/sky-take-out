@@ -11,6 +11,9 @@ sky:
     access-key-id: LTAI5tJ3HhaLHmPJmXg1vPDm
     access-key-secret: 99AS9VH4E9ajBEhHcFKARdg3BzetNS
     bucket-name: xia-sky-take-out
+  redis:
+    host:localhost
+    port:6379
 
 #application-dev.yml 可以理解为是 application.yml 的一个补充，
 #用于在开发环境下提供特定的配置信息，以满足开发需求。
